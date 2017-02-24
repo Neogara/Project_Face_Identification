@@ -1,0 +1,14 @@
+﻿<Window x:Class="Project_Face_Identification.Layouts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project_Face_Identification.Layouts"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="411.044" Width="627.51">
+    <Grid>
+        <Button x:Name="OpenMainCameraButton" Content=" Запуск Камеры " Margin="10,75,516,260" Click="OpenMainCamera_Click" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" Height="45"/>
+        <Button x:Name="CloseMainCameraButton" Content=" Выключение камеры " Margin="10,125,483,210" Click="CloseMainCameraButton_Click" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" Height="45"/>
+
+    </Grid>
+</Window>
